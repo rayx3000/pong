@@ -1,0 +1,25 @@
+#gameContainer{
+  text-align: center;
+}
+#gameBoard{
+  border: 3px solid;
+}
+#scoreTxt{
+  font-family: monospace, system-ui;
+  font-size: 100px;
+}
+#resetBtn{
+  font-family: "consolas", "Permament Marker", cursive;
+  font-size: 22px;
+  width: 100px;
+  height: 50px;
+  border: 3.75px solid;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#resetBtn:hover{
+  opacity: 0.75;
+}
+#resetBtn:active{
+  opacity: 0.55;
+}
